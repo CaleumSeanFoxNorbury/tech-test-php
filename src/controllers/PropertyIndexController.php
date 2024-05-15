@@ -1,9 +1,6 @@
 <?php
 
 class PropertyIndexController {
-    
-    // todo :: add contrctor for passing in edit ids!!
-
     public function propertyIndex() {
         // render view 
         ob_start();
@@ -11,5 +8,4 @@ class PropertyIndexController {
         $html = ob_get_clean();
         echo $html;
     }
-
 }
