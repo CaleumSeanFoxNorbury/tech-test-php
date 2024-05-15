@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div style="position: fixed; height: 100%; width: 25%; background-color: #5E5DF0;">
+        <h1 class="textcenter mt3 mx3" style="color: white;">Properties<h1>
+        <h1 class="textcenter" style="color: white;">- - - - - - - - - - - -</h1>
+        <div class="m4">
+            <label style="color: white;">Postcode: </label>
+            <input type="text" id="distance" class="distance-input p1" style="width: 70%;" />
+        </div>    
+        <div class="m4">
+            <div class="row aicenter">
+                <label style="color: white;">Amenities: </label>
+                <fieldset style="width: 100%; padding: 0px !important;">
+                    <details>
+                        <summary id="filterByAmenitiesTitle">Filter By Amenities</summary>
+                        <ul id="amenitieList"></ul>
+                    </details>
+                </fieldset>
+            </div>
+        </div>   
+        <div class="mt4 mx4">
+            <label style="color: white;">Pay Range: </label>
+            <div class="col jccenter m3">
+                <div class="row aicenter jccenter">
+                    <input type="number" id="priceFrom" placeholder="From" class="intinput">
+                    <div class="m3 seperator"> - </div>
+                    <input type="number" id="priceTo" placeholder="To" class="intinput">
+                </div>
+            </div>
+        </div>
+        <div class="row aicenter jcspace-evenly">
+            <div class="m4">
+                <label style="color: white;">Bathrooms: </label>
+                <div class="row aicenter">
+                    <div id="decrementBathrooms" class="qtyBtn mb2">-</div>
+                    <div id="bathroomQty" class="qtyValue">0</div>
+                    <div id="incrementBathrooms" class="qtyBtn">+</div>
+                </div>
+            </div>
+            <div class="m4">
+                <label style="color: white;">Bedrooms: </label>
+                <div class="row aicenter">
+                    <div id="decrementBedrooms" class="qtyBtn mb2">-</div>
+                    <div id="bedroomQty" class="qtyValue">0</div>
+                    <div id="incrementBedrooms" class="qtyBtn">+</div>
+                </div>
+            </div>
+            <div class="m4">
+                <label style="color: white;">Reception: </label>
+                <div class="row aicenter">
+                    <div id="decrementReceptions" class="qtyBtn mb2">-</div>
+                    <div id="receptionQty" class="qtyValue">0</div>
+                    <div id="incrementReceptions" class="qtyBtn">+</div>
+                </div>
+            </div>
+        </div>        
+        <div class="row aicenter jccenter">
+            <div id="activateFilter" class="btn" style="background-color: white; color: #5E5DF0 !important;">Filter</div>
+        </div>
+    </div>
+    <div class="row aicenter jcend" style="width: 100%;">
+        <div style="width: 75%;">
+            <div id="propertyListAnchor" class="row aicenter jcspace-between p5 wrapwrap"></div>
+            <div id="paginatedControlWrapper" class="row aicenter jccenter">
+                <div class="m2 p2 btn" id="paginatedControlPrev" style="display: none;">Prev</div>
+                <div class="m2 p2" id="pageCounts"></div>
+                <div class="m2 p2 btn" id="paginatedControlNext">Next</div>
+            </div>
+        </div>
+    </div>
+    <div id="preloader" style="display: none;"><div id="loader"></div></div>
+</body>
+</html>
+
+<script type="module">    
+    import { paginatedControl, renderData, setCoordinates, filterData } from "./js/interact.js";
+
+    // room counters
+    ['reception', 'bedroom', 'bathroom'].forEach(qtyProperty => {
+        document.getElementById("increment"+qtyProperty.charAt(0).toUpperCase()+qtyProperty.slice(1)+"s").addEventListener("click", () => {
+            let qtyEl = document.getElementById(qtyProperty+"Qty");
+            let currQty = parseInt(qtyEl.innerHTML);
+            currQty++;
+            qtyEl.innerHTML = currQty;
+        });
+        document.getElementById("decrement"+qtyProperty.charAt(0).toUpperCase()+qtyProperty.slice(1)+"s").addEventListener("click", () => {
+            let qtyEl = document.getElementById(qtyProperty+"Qty");
+            let currQty = parseInt(qtyEl.innerHTML);  
+            if(currQty !== 0){
+                currQty--;
+                qtyEl.innerHTML = currQty;
+            }
+        });
+    });
+
+    // watch for pagination controls activating
+    document.getElementById("paginatedControlNext").addEventListener("click", () => paginatedControl());
+    document.getElementById("paginatedControlPrev").addEventListener("click", () => paginatedControl('decrement'));
+
+    // watch filter activate btn
+    document.getElementById("activateFilter").addEventListener("click", () => {
+        let fromPrice = document.getElementById('priceFrom').value;
+        let toPrice = document.getElementById('priceTo').value;
+
+        let receptionQty = parseInt(document.getElementById('receptionQty').innerHTML);
+        let bathroomQty = parseInt(document.getElementById('bathroomQty').innerHTML);
+        let bedroomQty = parseInt(document.getElementById('bedroomQty').innerHTML);
+
+        // filter selected emenities by checked checkboxes (multi-select)
+        const amenities = Array.from(document.getElementById("amenitieList").querySelectorAll("input[type='checkbox']"))
+        .filter(function(checkbox) {
+            return checkbox.checked;
+        }).map(function(checkbox) {
+            return checkbox.value;
+        }); 
+
+        filterData(
+            document.getElementById('distance').value,
+            (amenities && amenities.length > 0) ? JSON.stringify(amenities) : null,
+            (fromPrice || toPrice ? fromPrice+" - "+toPrice : null),
+            (receptionQty > 0 || bathroomQty > 0 || bedroomQty > 0) ? JSON.stringify([receptionQty, bathroomQty, bedroomQty]) : null
+        )
+    });
+
+    // reset values unless want to keep filters
+    document.addEventListener("DOMContentLoaded", renderData);
+
+    // set lan/lons on objects
+    await setCoordinates();
+</script>
+

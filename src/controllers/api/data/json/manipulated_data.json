@@ -1,0 +1,444 @@
+[
+    {
+        "Listing Title": "Elegant Townhouse",
+        "Address": "1 West Gate, Mansfield, Nottinghamshire, NG18 1SJ",
+        "Lat": 0,
+        "Loong": 0,
+        "Amenities": [
+            "Two Car Garage",
+            "Patio",
+            "Fireplace"
+        ],
+        "Sold by": "Heritage Homes",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 2,
+        "Image": "house (1).jpg",
+        "Price": "\u00a3350,000"
+    },
+    {
+        "Listing Title": "Riverside Retreat",
+        "Address": "47 High Road, Newark, Nottinghamshire, NG24 3AA",
+        "Lat": 53.060081,
+        "Loong": -0.78646,
+        "Amenities": [
+            "River View",
+            "Private Dock",
+            "Large Deck"
+        ],
+        "Sold by": "Riverside Properties",
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Reception rooms": 2,
+        "Image": "house (1).jpeg",
+        "Price": "\u00a3475,000"
+    },
+    {
+        "Listing Title": "Victorian Manor",
+        "Address": "82 Wood Street, Worksop, Nottinghamshire, S80 2HL",
+        "Lat": 53.30295,
+        "Loong": -1.11789,
+        "Amenities": [
+            "Victorian Architecture",
+            "Gazebo",
+            "Wine Cellar"
+        ],
+        "Sold by": "Classic Estates",
+        "Bedrooms": 5,
+        "Bathrooms": 4,
+        "Reception rooms": 3,
+        "Image": "house (2).jpg",
+        "Price": "\u00a3760,000"
+    },
+    {
+        "Listing Title": "Modern Loft",
+        "Address": "25 Beck Street, Nottingham, NG1 1EQ",
+        "Lat": 52.955571,
+        "Loong": -1.143074,
+        "Amenities": [
+            "Open Plan",
+            "Industrial Finish",
+            "Skylights"
+        ],
+        "Sold by": "City Dwellings",
+        "Bedrooms": 2,
+        "Bathrooms": 2,
+        "Reception rooms": 1,
+        "Image": "house (2).jpeg",
+        "Price": "\u00a3290,000"
+    },
+    {
+        "Listing Title": "Country Cottage",
+        "Address": "93 Main Road, Radcliffe on Trent, Nottinghamshire, NG12 2FD",
+        "Lat": 52.946672,
+        "Loong": -1.039396,
+        "Amenities": [
+            "Wood Beams",
+            "Stone Fireplace",
+            "Orchard"
+        ],
+        "Sold by": "Rustic Realty",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 2,
+        "Image": "house (3).jpg",
+        "Price": "\u00a3420,000"
+    },
+    {
+        "Listing Title": "Suburban Villa",
+        "Address": "68 Boundary Road, West Bridgford, Nottinghamshire, NG2 7BY",
+        "Lat": 52.917882,
+        "Loong": -1.123933,
+        "Amenities": [
+            "Pool",
+            "Private Gym",
+            "Cinema Room"
+        ],
+        "Sold by": "Luxury Living Ltd",
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Reception rooms": 2,
+        "Image": "house (3).jpeg",
+        "Price": "\u00a3650,000"
+    },
+    {
+        "Listing Title": "City Centre Flat",
+        "Address": "Flat 14, The Ice House, Belward Street, Nottingham, NG1 1JZ",
+        "Lat": 52.953536,
+        "Loong": -1.141372,
+        "Amenities": [
+            "Concierge Service",
+            "Underground Parking",
+            "Fitness Centre"
+        ],
+        "Sold by": "Urban Spaces",
+        "Bedrooms": 2,
+        "Bathrooms": 2,
+        "Reception rooms": 1,
+        "Image": "house (4).jpg",
+        "Price": "\u00a3325,000"
+    },
+    {
+        "Listing Title": "Historic Gatehouse",
+        "Address": "3 Castle Gate, Nottingham, NG1 7AQ",
+        "Lat": 52.951244,
+        "Loong": -1.14981,
+        "Amenities": [
+            "Grade II Listed",
+            "Secret Garden",
+            "Period Features"
+        ],
+        "Sold by": "Heritage Homes",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 2,
+        "Image": "house (4).jpeg",
+        "Price": "\u00a3540,000"
+    },
+    {
+        "Listing Title": "Lakeside Bungalow",
+        "Address": "12 Lake Side, Arnold, Nottinghamshire, NG5 8PH",
+        "Lat": 53.033399,
+        "Loong": -1.140175,
+        "Amenities": [
+            "Lake Access",
+            "Boat Slip",
+            "Wrap-around Porch"
+        ],
+        "Sold by": "Waterside Properties",
+        "Bedrooms": 2,
+        "Bathrooms": 2,
+        "Reception rooms": 1,
+        "Image": "house (5).jpg",
+        "Price": "\u00a3385,000"
+    },
+    {
+        "Listing Title": "Executive Penthouse",
+        "Address": "Penthouse 5, The Plaza, Tollhouse Hill, Nottingham, NG1 5FS",
+        "Lat": 52.954906,
+        "Loong": -1.155275,
+        "Amenities": [
+            "Rooftop Terrace",
+            "Valet Parking",
+            "24\/7 Security"
+        ],
+        "Sold by": "Skyline Realtors",
+        "Bedrooms": 3,
+        "Bathrooms": 3,
+        "Reception rooms": 3,
+        "Image": "house (5).jpeg",
+        "Price": "\u00a3800,000"
+    },
+    {
+        "Listing Title": "Rustic Farmhouse",
+        "Address": "22 Farm Lane, Hucknall, Nottinghamshire, NG15 6NU",
+        "Lat": 53.031697,
+        "Loong": -1.228902,
+        "Amenities": [
+            "Barn",
+            "Stables",
+            "Large Courtyard"
+        ],
+        "Sold by": "Country Homes",
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Reception rooms": 2,
+        "Image": "house (6).jpg",
+        "Price": "\u00a3690,000"
+    },
+    {
+        "Listing Title": "Modern Suburban Home",
+        "Address": "15 Oak Tree Lane, Retford, Nottinghamshire, DN22 7GZ",
+        "Lat": 53.311811,
+        "Loong": -0.947935,
+        "Amenities": [
+            "Solar Panels",
+            "Smart Home Technology",
+            "Private Backyard"
+        ],
+        "Sold by": "Future Living Properties",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 2,
+        "Image": "house (6).jpeg",
+        "Price": "\u00a3475,000"
+    },
+    {
+        "Listing Title": "Countryside Estate",
+        "Address": "48 Chesterfield Road South, Mansfield, Nottinghamshire, NG19 7AP",
+        "Lat": 53.154344,
+        "Loong": -1.205352,
+        "Amenities": [
+            "Private Lake",
+            "Gated Entry",
+            "Guest Cottages"
+        ],
+        "Sold by": "Exclusive Estates",
+        "Bedrooms": 5,
+        "Bathrooms": 4,
+        "Reception rooms": 3,
+        "Image": "house (7).jpg",
+        "Price": "\u00a3950,000"
+    },
+    {
+        "Listing Title": "Spacious Family Home",
+        "Address": "109 Park Avenue, Sutton-in-Ashfield, Nottinghamshire, NG17 2HN",
+        "Lat": 53.128297,
+        "Loong": -1.283848,
+        "Amenities": [
+            "Large Garden",
+            "Office Room",
+            "Play Area"
+        ],
+        "Sold by": "Family First Realty",
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Reception rooms": 2,
+        "Image": "house (7).jpeg",
+        "Price": "\u00a3620,000"
+    },
+    {
+        "Listing Title": "Contemporary City House",
+        "Address": "22 Sherwood Rise, Nottingham, NG7 6JF",
+        "Lat": 52.971704,
+        "Loong": -1.15873,
+        "Amenities": [
+            "Modern Design",
+            "Eco-Friendly Systems",
+            "Roof Terrace"
+        ],
+        "Sold by": "Modern Homes",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 1,
+        "Image": "house (8).jpg",
+        "Price": "\u00a3500,000"
+    },
+    {
+        "Listing Title": "Charming Bungalow",
+        "Address": "5 Elm Tree Road, Retford, Nottinghamshire, DN22 7GD",
+        "Lat": 53.331753,
+        "Loong": -0.945614,
+        "Amenities": [
+            "Mature Garden",
+            "Conservatory",
+            "Garage"
+        ],
+        "Sold by": "Homestead Real Estate",
+        "Bedrooms": 2,
+        "Bathrooms": 1,
+        "Reception rooms": 1,
+        "Image": "house (8).jpeg",
+        "Price": "\u00a3285,000"
+    },
+    {
+        "Listing Title": "Urban Studio Apartment",
+        "Address": "Flat 21, The Blocks, Greyfriar Gate, Nottingham, NG1 7EF",
+        "Lat": 52.949218,
+        "Loong": -1.149418,
+        "Amenities": [
+            "City Views",
+            "Compact Living",
+            "Near Public Transit"
+        ],
+        "Sold by": "City Life Realtors",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "Reception rooms": 1,
+        "Image": "house (9).jpg",
+        "Price": "\u00a3190,000"
+    },
+    {
+        "Listing Title": "Luxury Manor",
+        "Address": "18 Royal Gate, Southwell, Nottinghamshire, NG25 0LG",
+        "Lat": 53.074209,
+        "Loong": -0.957509,
+        "Amenities": [
+            "Historic Property",
+            "Private Park",
+            "Horse Stables"
+        ],
+        "Sold by": "Prestige Properties",
+        "Bedrooms": 6,
+        "Bathrooms": 5,
+        "Reception rooms": 4,
+        "Image": "house (9).jpeg",
+        "Price": "\u00a31,200,000"
+    },
+    {
+        "Listing Title": "Neighborhood Corner House",
+        "Address": "2 Quarry Road, Newark, Nottinghamshire, NG24 4UL",
+        "Lat": 53.07508,
+        "Loong": -0.816326,
+        "Amenities": [
+            "Corner Lot",
+            "Newly Renovated",
+            "Fenced Yard"
+        ],
+        "Sold by": "Home Sweet Home",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 2,
+        "Image": "house (10).jpg",
+        "Price": "\u00a3360,000"
+    },
+    {
+        "Listing Title": "Quaint Village House",
+        "Address": "17 Church Street, Bingham, Nottinghamshire, NG13 8AL",
+        "Lat": 52.952296,
+        "Loong": -0.949937,
+        "Amenities": [
+            "Village Location",
+            "Fireplace",
+            "Nearby Schools"
+        ],
+        "Sold by": "Village Realty",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 2,
+        "Image": "house (10).jpeg",
+        "Price": "\u00a3350,000"
+    },
+    {
+        "Listing Title": "Sleek New Apartment",
+        "Address": "Flat 4, The Edge, Bottle Lane, Nottingham, NG1 2HL",
+        "Lat": 52.953048,
+        "Loong": -1.146976,
+        "Amenities": [
+            "High-Tech Appliances",
+            "Minimalist Design",
+            "Central Location"
+        ],
+        "Sold by": "Trendsetters Realty",
+        "Bedrooms": 2,
+        "Bathrooms": 1,
+        "Reception rooms": 1,
+        "Image": "house (11).jpg",
+        "Price": "\u00a3310,000"
+    },
+    {
+        "Listing Title": "Classic Country Home",
+        "Address": "12 Old Mill Road, Mansfield, Nottinghamshire, NG18 2SD",
+        "Lat": 53.138905,
+        "Loong": -1.187401,
+        "Amenities": [
+            "Large Plot",
+            "Classic Design",
+            "Private Driveway"
+        ],
+        "Sold by": "Countryside Estates",
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Reception rooms": 3,
+        "Image": "house (11).jpeg",
+        "Price": "\u00a3680,000"
+    },
+    {
+        "Listing Title": "Modern Minimalist Home",
+        "Address": "8 Modern Lane, Nottingham, NG7 2SG",
+        "Lat": 52.936663,
+        "Loong": -1.179603,
+        "Amenities": [
+            "Open Floor Plan",
+            "Energy Efficient",
+            "Modern Aesthetics"
+        ],
+        "Sold by": "The Modern Home Company",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Reception rooms": 1,
+        "Image": "house (12).jpg",
+        "Price": "\u00a3450,000"
+    },
+    {
+        "Listing Title": "Regal Red Brick Mansion",
+        "Address": "5 Kingsway, West Bridgford, Nottinghamshire, NG2 5GR",
+        "Lat": 52.932058,
+        "Loong": -1.127199,
+        "Amenities": [
+            "Wine Cellar",
+            "Library",
+            "Gourmet Kitchen"
+        ],
+        "Sold by": "Grand Estates",
+        "Bedrooms": 5,
+        "Bathrooms": 4,
+        "Reception rooms": 4,
+        "Image": "house (12).jpeg",
+        "Price": "\u00a31,100,000"
+    },
+    {
+        "Listing Title": "Cozy Cottage",
+        "Address": "3 Brook Lane, Retford, Nottinghamshire, DN22 6NT",
+        "Lat": 53.319279,
+        "Loong": -0.937814,
+        "Amenities": [
+            "Cottage Garden",
+            "Wood Burning Stove",
+            "Country Charm"
+        ],
+        "Sold by": "Rural Living Properties",
+        "Bedrooms": 2,
+        "Bathrooms": 1,
+        "Reception rooms": 1,
+        "Image": "house (13).jpg",
+        "Price": "\u00a3270,000"
+    },
+    {
+        "Listing Title": "Urban Edge Apartment",
+        "Address": "Apartment 7, Block B, One The Green, Nottingham, NG1 6HG",
+        "Lat": 0,
+        "Loong": 0,
+        "Amenities": [
+            "City Skyline Views",
+            "Contemporary Finish",
+            "Secure Entry"
+        ],
+        "Sold by": "Urban Edge Estates",
+        "Bedrooms": 2,
+        "Bathrooms": 2,
+        "Reception rooms": 1,
+        "Image": "house (13).jpeg",
+        "Price": "\u00a3335,000"
+    }
+]
